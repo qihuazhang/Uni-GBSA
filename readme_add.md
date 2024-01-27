@@ -11,3 +11,5 @@ docker_run.sh(docker run --privileged -it -v /home/zhangqihua/docker_gbsa/Uni-GB
 exit
 # 启动 
 docker start 05938cc8f193
+# 进入容器
+sudo docker exec -it 05938cc8f193  /bin/bash
